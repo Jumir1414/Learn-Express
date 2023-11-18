@@ -3,6 +3,6 @@ import { Router } from "express";
 
 const router = Router();
 
-router.post('/',mainController.getHello );
+router.get('/',mainController.getHello );
 
 export default router;
